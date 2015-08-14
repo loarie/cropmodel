@@ -1,9 +1,6 @@
 #' Crop Function
 #'
-#' This function takes responses (y), and 2 environmental variables (x1 & x2) 
-#' along with prior parameters for beta (b0, Vbcoef) and sigma2 (s1,s2)
-#' and produces estimates for beta and sigma using a Gibb's sampler
-#' and quadradic Bayesian regression
+#' This function takes responses (y), and 2 environmental variables (x1 & x2) along with prior parameters for beta (b0, Vbcoef) and sigma2 (s1,s2) and produces estimates for beta and sigma using a Gibb's sampler and quadradic Bayesian regression
 #' @param b0, Vbcoef, s1, s2, y, x1, x2
 #' @keywords crop Bayesian model
 #' @export
