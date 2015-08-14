@@ -2,18 +2,23 @@
 % Please edit documentation in R/crop_function.R
 \name{crop_function}
 \alias{crop_function}
-\title{A Cat Function}
+\title{Crop Function}
 \usage{
-crop_function(love = TRUE)
+crop_function(b0, Vbcoef, s1, s2, y, x1, x2)
 }
 \arguments{
-\item{love}{Do you love cats? Defaults to TRUE.}
+\item{b0,}{Vbcoef, s1, s2, y, x1, x2}
 }
 \description{
-This function allows you to express your love of cats.
+This function takes responses (y), and 2 environmental variables (x1 & x2)
+along with prior parameters for beta (b0, Vbcoef) and sigma2 (s1,s2)
+and produces estimates for beta and sigma using a Gibb's sampler
+and quadradic Bayesian regression
 }
 \examples{
-cat_function()
+crop_function()
 }
-\keyword{cats}
+\keyword{Bayesian}
+\keyword{crop}
+\keyword{model}
 
