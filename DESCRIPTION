@@ -2,9 +2,7 @@ Package: cropmodel
 Title: Quadratic Bayesian Regression Model for crop modeling
 Version: 1.0
 Authors@R: person("Scott", "Loarie", email = "loarie@gmail.com", role = c("aut", "cre"))
-Description: This function takes responses (y), and 2 environmental variables (x1 & x2) 
-along with prior parameters for beta (b0, Vbcoef) and sigma2 (s1,s2) and produces
-estimates for beta and sigma using a Gibb's sampler and quadradic Bayesian regression
+Description: This function takes responses (y), and 2 environmental variables (x1 & x2) along with prior parameters for beta (b0, Vbcoef) and sigma2 (s1,s2) and produces estimates for beta and sigma using a Gibb's sampler and quadradic Bayesian regression
 Depends: R (>= 3.2.1)
 License: CC-by
 LazyData: true
