@@ -41,6 +41,7 @@ crop_function <- function(b0, Vbcoef, s1, s2, y, x1, x2){
 
   b_mean = apply( b_vals, 2, mean )
   sigma2_mean = mean( sigma2_vals )
-  print(paste("{\"beta\":[",paste(b_mean,collapse=","),"], \"sigma2\":",sigma2_mean,"}",sep="")[1])
+  #print(paste("{\"beta\":[",paste(b_mean,collapse=","),"], \"sigma2\":",sigma2_mean,"}",sep="")[1])
+  print(paste("{beta:[",paste(b_mean,collapse=","),"], sigma2:",sigma2_mean,"}",sep="")[1])
     
 }
