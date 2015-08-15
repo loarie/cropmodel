@@ -12,7 +12,7 @@ crop_function <- function(b0, Vbcoef, s1, s2, y, x1, x2){
   library( MCMCpack )
   
   n = length( y )
-  X = cbind( rep( 1, times = n ), x1, x2, x1^2, x2^2 )
+  X = cbind( rep( 1, times = n ), x1, x2, x1^2, x2^2, 2015 )
   p = dim( X )[2]
 
   #beta prior
