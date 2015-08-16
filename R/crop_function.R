@@ -45,6 +45,6 @@ crop_function <- function(b0, Vbcoef, s1, s2, y1, x1, x2){
   b_mean = apply( simOut$betadraw, 2, mean )
   sigma2_mean = mean(simOut$sigmasqdraw)
   print(paste("{beta:[",paste(b_mean,collapse=","),"], sigma2:",sigma2_mean,"}",sep="")[1])
-  print(sum(b0*c(1, x1[1], x2[1], x1[1]^2, x2[1]^2, 115)))
-  print(sum(b_mean*c(1, x1[1], x2[1], x1[1]^2, x2[1]^2, 115)))
+  #print(sum(b0*c(1, x1[1], x2[1], x1[1]^2, x2[1]^2, 115)))
+  #print(sum(b_mean*c(1, x1[1], x2[1], x1[1]^2, x2[1]^2, 115)))
 }
