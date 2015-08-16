@@ -1,13 +1,13 @@
-#' Crop Function
+#' Crop Function_old 
 #'
 #' This function takes responses (y), and 2 environmental variables (x1 & x2) along with prior parameters for beta (b0, Vbcoef) and sigma2 (s1,s2) and produces estimates for beta and sigma using a Gibb's sampler and quadradic Bayesian regression
 #' @param b0, Vbcoef, s1, s2, y, x1, x2
 #' @keywords crop Bayesian model
 #' @export
 #' @examples
-#' crop_function()
+#' crop_function_old ()
 
-crop_function <- function(b0, Vbcoef, s1, s2, y, x1, x2){
+crop_function_old <- function(b0, Vbcoef, s1, s2, y, x1, x2){
   library( mvtnorm )
   library( MCMCpack )
   
