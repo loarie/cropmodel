@@ -22,7 +22,7 @@ crop_function <- function(b0, Vbcoef, s1, s2, y, x1, x2){
   #sigma2 prior
   sigma2_val = rinvgamma( 1, s1, s2 )
 
-  ngibbs = 10000
+  ngibbs = 100000
   b_vals = matrix( NA, ngibbs, p )
   sigma2_vals = rep( NA, times = ngibbs )
   for( g in 1 : ngibbs ){
