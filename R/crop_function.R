@@ -18,6 +18,7 @@ crop_function <- function(b0, Vbcoef, s1, s2, y1, x1, x2){
     x2 = c(x2,x2)
     n = 2
   }
+  y1 = y1+rnorm(n,0,0.0001)
   
   X1 = cbind( rep( 1, times = n ), x1, x2, x1^2, x2^2, 115 )
   p = dim( X1 )[2]
